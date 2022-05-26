@@ -1,7 +1,7 @@
 from setuptools import find_packages
 from setuptools import setup
 
-REQUIRED_PACKAGES = ['tensorflow==1.13.1', 'scipy==1.2.2', 'pretty_midi==0.2.8', 'imageio==2.4.1', 'metrics==0.3.3', ]
+REQUIRED_PACKAGES = ['tensorflow==2.7.2', 'scipy==1.2.2', 'pretty_midi==0.2.8', 'imageio==2.4.1', 'metrics==0.3.3', ]
 
 setup(
 	name = 'trainer',
